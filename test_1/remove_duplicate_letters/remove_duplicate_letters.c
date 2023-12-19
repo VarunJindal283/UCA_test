@@ -41,6 +41,9 @@ char* removeDuplicateLetters(char* s) {
 }
 
 int main(){
-    char arr[]="bccbacb";
-    printf("%s",removeDuplicateLetters(arr));
+    char arr1[]="bcabc";
+    char arr2[]="cbacdcbc";
+
+    printf("%s\n",removeDuplicateLetters(arr1));
+    printf("%s\n",removeDuplicateLetters(arr2));
 }
